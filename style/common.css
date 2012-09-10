@@ -1,0 +1,55 @@
+/*
+	版权信息
+*/
+
+body { background:url(../images/bg.jpg) no-repeat center 0; background-color:#d47300; }
+.clear { clear:both;}
+a {outline: none;}
+a:active {star:expression(this.onFocus=this.blur());}
+:focus { outline:0; }
+*{padding:0; margin:0; text-decoration:none;} 
+img { border:none;}
+li { list-style:none;}
+
+
+
+.top { height:45px; background:url(../images/head.png) repeat-x;}
+.header { width:1000px; height:40px; margin:0 auto;}
+.logo { width:100px; height:40px; float:left; background:url(../images/image.png) 0 0 no-repeat;}
+.logo:hover { background:url(../images/image.png) -100px 0 no-repeat;}
+.logo a { display:block; width:100px; height:40px; }
+.menu { float:right;}
+.menu ul {}
+.menu ul li { float:left;}
+.menu ul li a { color:#ddd; line-height:40px; font-weight:bold;}
+.menu ul li a:hover { color:#fbb96b; text-decoration:underline;}
+.biglogo { width:397px; height:105px; margin:0 auto; margin-top:120px; background:url(../images/image.png) 0 -40px no-repeat;}
+.text { width:526px; height:44px; margin:0 auto; margin-top:80px;}
+.input { width:437px; height:44px; padding-top:3px; float:left; background:url(../images/image.png) 0 -145px no-repeat; _background:url(../images/image.png) 0 -144px no-repeat; }
+.input input { width:420px; height:30px; margin:0 0 0 10px; line-height:35px; font-family:"Times New Roman"; color:#888; font-size:26px; border:none; background:none;}
+.submit { width:89px; height:44px; float:left; background:url(../images/image.png) 0 -192px no-repeat; }
+.submit input { width:83px; height:40px; border:none; background:none; cursor:pointer;}
+.submit:hover { background:url(../images/image.png) -89px -192px no-repeat;}
+.msg { width:520px; height:80px; _height:79px; padding-top:55px; margin:0 auto; margin-top:20px; background:url(../images/image.png) 0 -236px no-repeat; _background:url(../images/image.png) 0 -237px no-repeat; }
+.msg_body { width:414px; height:55px; margin-left:18px; line-height:50px; font-weight:bold; color:#555; font-size:18px; } 
+.bottom { width:1000px; height:20px; margin:0 auto; margin-top:50px; padding:0 10px 0 10px; border-top:#ebb677 1px solid;}
+.bottom span { line-height:20px; color:#ddd; font-size:12px; }
+.bottom .sae { float:right; margin-top:3px; padding-right:5px; }
+.bottom .hopeness { display:block; width:75px; height:20px; float:right; background:url(../images/image.png) 0 -370px no-repeat; }
+.bottom .hopeness:hover { background:url(../images/image.png) -75px -370px no-repeat; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

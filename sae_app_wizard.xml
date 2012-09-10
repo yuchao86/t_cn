@@ -1,0 +1,7 @@
+<appwizard><introduction><name></name><author>briefurl</author><icon></icon><homepage></homepage><description><![CDATA[briefurl]]></description></introduction><platform><services><service></service><service>kvdb</service></services><appconfig><tpl><![CDATA[
+name: <<appname>>
+version: <<version>>
+
+handle:
+- rewrite: if (!is_file() && !is_dir() && path ~ "^/(.*)") goto "index.php?idshot=$1"
+]]></tpl></appconfig></platform><code><initScript>index.php</initScript></code></appwizard>
